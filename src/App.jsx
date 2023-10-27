@@ -4,6 +4,7 @@ import Sidebar from "./components/Sidebar/Sidebar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import MySkills from "./components/MySkills/MySkills";
+import MyProjects from "./components/MyProjects/MyProjects";
 const App = () => {
   const [open, setOpen] = useState(false);
   return (
@@ -23,8 +24,8 @@ const App = () => {
             <Home />
             <About />
             <MySkills />
-            {/* <MyProjects />
-            <Contact />
+            <MyProjects />
+            {/*<Contact />
             <Footer /> */}
           </div>
         </div>
