@@ -2,6 +2,7 @@ import { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Home from "./components/Home/Home";
+import About from "./components/About/About";
 const App = () => {
   const [open, setOpen] = useState(false);
   return (
@@ -19,8 +20,8 @@ const App = () => {
           </div>
           <div className="md:col-span-5  md:px-10">
             <Home />
-            {/*<About />
-            <MySkills />
+            <About />
+           {/* <MySkills />
             <MyProjects />
             <Contact />
             <Footer /> */}
