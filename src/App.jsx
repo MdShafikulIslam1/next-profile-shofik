@@ -3,6 +3,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
+import MySkills from "./components/MySkills/MySkills";
 const App = () => {
   const [open, setOpen] = useState(false);
   return (
@@ -21,8 +22,8 @@ const App = () => {
           <div className="md:col-span-5  md:px-10">
             <Home />
             <About />
-           {/* <MySkills />
-            <MyProjects />
+            <MySkills />
+            {/* <MyProjects />
             <Contact />
             <Footer /> */}
           </div>
@@ -30,6 +31,6 @@ const App = () => {
       </div>
     </>
   );
-}
+};
 
 export default App;
