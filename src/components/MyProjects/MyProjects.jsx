@@ -10,6 +10,10 @@ const projects = [
     name: "Computer & IT Service",
     description:
       "Jwt based custom authentication,authorization and user persistency.User can booking and see her booking list in dashboard.User Can review any service and see his/her review",
+    liveSite: "",
+    client: "https://github.com/MdShafikulIslam1/computer-it-service-frontend",
+    server:
+      "https://github.com/MdShafikulIslam1/computer-and-it-servervice-backend",
     technologies: [
       "HTML",
       "CSS",
@@ -28,6 +32,9 @@ const projects = [
     name: "Book Catalog",
     description:
       "seller can add book,update book.Users see top selling books ,add to cart and can order.Apply jwt based custom authentication,authorization and user persistence",
+    liveSite: "https://chimerical-sundae-3e7d70.netlify.app",
+    client: "https://github.com/MdShafikulIslam1/book-catalog-client",
+    server: "https://github.com/MdShafikulIslam1/book-catalog-server",
     technologies: [
       "HTML",
       "CSS",
@@ -46,6 +53,10 @@ const projects = [
     name: "Used Product Sale",
     description:
       "Dashboard page where Admin can control all buyers and sellers user.firebase authentication      . Buyers also purchase products by Visa,MasterCard and other international payment cards.       Apply jsonwebtoken(jwt) for users information security purposes.",
+    liveSite: "https://used-products-f2776.web.app",
+    client: "https://github.com/MdShafikulIslam1/used-products-client-site",
+    server:
+      "https://github.com/MdShafikulIslam1/used-products-resale-Server-site",
     technologies: [
       "HTML5",
       "CSS3",
@@ -92,23 +103,17 @@ const MyProjects = () => {
                 <hr className="my-2" />
                 <div className="my-3 flex justify-between ">
                   <button className="btn btn-accent  text-white btn-sm">
-                    <Link to="https://artzone-be3a9.web.app/" target="_blank">
+                    <Link to={project?.liveSite} target="_blank">
                       Live site
                     </Link>
                   </button>
                   <button className="btn btn-accent text-white btn-sm">
-                    <Link
-                      to="https://github.com/habibur-pro/artZone-client"
-                      target="_blank"
-                    >
+                    <Link to={project?.client} target="_blank">
                       Client
                     </Link>
                   </button>
                   <button className="btn btn-accent text-white btn-sm">
-                    <Link
-                      to="https://github.com/habibur-pro/artZone-server"
-                      target="_blank"
-                    >
+                    <Link to={project?.server} target="_blank">
                       Server
                     </Link>
                   </button>

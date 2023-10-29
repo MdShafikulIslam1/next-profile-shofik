@@ -6,6 +6,7 @@ import About from "./components/About/About";
 import MySkills from "./components/MySkills/MySkills";
 import MyProjects from "./components/MyProjects/MyProjects";
 import Footer from "./components/Footer/Footer";
+import Contact from "./components/Contact/Contact";
 const App = () => {
   const [open, setOpen] = useState(false);
   return (
@@ -26,7 +27,7 @@ const App = () => {
             <About />
             <MySkills />
             <MyProjects />
-          {/* <Contact /> */}
+            <Contact />
             <Footer />
           </div>
         </div>
