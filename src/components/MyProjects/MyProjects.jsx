@@ -1,23 +1,23 @@
-import Underline from "../Underline";
-import bookCatalog from "../../assets/images/book-catelog.png";
-import usedProducts from "../../assets/images/used-products.png";
-import computerService from "../../assets/images/computer-and-it-service.png";
 import { Link } from "react-router-dom";
+import bookCatalog from "../../assets/images/book-catelog.png";
+import computerService from "../../assets/images/computer-and-it-service.png";
+import usedProducts from "../../assets/images/used-products.png";
+import Underline from "../Underline";
 
 const projects = [
   {
     bgImage: computerService,
-    name: "Computer & IT Service",
+    name: "Computer Repair & IT Service",
     description:
-      "Jwt based custom authentication,authorization and user persistency.User can booking and see her booking list in dashboard.User Can review any service and see his/her review",
-    liveSite: "",
+      "Efficiently book services, and make payments securely via SSL commearz. A multi-role user system ensures privacy, with a user-friendly dashboard displaying payment and booking history.",
+    liveSite: "https://computer-it-service-frontend.vercel.app",
     client: "https://github.com/MdShafikulIslam1/computer-it-service-frontend",
     server:
       "https://github.com/MdShafikulIslam1/computer-and-it-servervice-backend",
     technologies: [
       "HTML",
       "CSS",
-      "antd",
+      "Antd",
       "Tailwind CSS",
       "TypeScript",
       "Next.js",
@@ -29,12 +29,12 @@ const projects = [
   },
   {
     bgImage: bookCatalog,
-    name: "Book Catalog",
+    name: "WhatsApp - Chat application",
     description:
-      "seller can add book,update book.Users see top selling books ,add to cart and can order.Apply jwt based custom authentication,authorization and user persistence",
-    liveSite: "https://chimerical-sundae-3e7d70.netlify.app",
-    client: "https://github.com/MdShafikulIslam1/book-catalog-client",
-    server: "https://github.com/MdShafikulIslam1/book-catalog-server",
+      "Engage in live conversations via a user-friendly interface. Send text, images, and emojis for effective      communication. Keep track of recent chats for easy access",
+    liveSite: "https://whats-app-clone-frontend-pi.vercel.app",
+    client: "https://github.com/MdShafikulIslam1/whatsApp-clone-frontend",
+    server: "https://github.com/MdShafikulIslam1/whatsApp-server",
     technologies: [
       "HTML",
       "CSS",
@@ -50,13 +50,12 @@ const projects = [
   },
   {
     bgImage: usedProducts,
-    name: "Used Product Sale",
+    name: "Vehicle Hub -(Team project)",
     description:
-      "Dashboard page where Admin can control all buyers and sellers user.firebase authentication      . Buyers also purchase products by Visa,MasterCard and other international payment cards.       Apply jsonwebtoken(jwt) for users information security purposes.",
-    liveSite: "https://used-products-f2776.web.app",
-    client: "https://github.com/MdShafikulIslam1/used-products-client-site",
-    server:
-      "https://github.com/MdShafikulIslam1/used-products-resale-Server-site",
+      "Seamlessly compare key metrics such as fuel efficiency, maintenance costs, and performance to optimize fleet management. Gain insights for informed decision-making and resource allocation",
+    liveSite: "https://vehicle-management-frontend-seven.vercel.app",
+    client: "https://github.com/nisharga/vehicle-management-frontend",
+    server: "https://github.com/19khaled88/vahicle_management_backend",
     technologies: [
       "HTML5",
       "CSS3",
@@ -81,7 +80,7 @@ const MyProjects = () => {
           projects?.map((project, index) => (
             <div key={index} className="group relative">
               <div
-                className=" h-[300px] bg-cover ease-linear border bg-top group-hover:bg-bottom duration-[1.5s] rounded-t-lg"
+                className=" h-[300px] bg-cover ease-linear border bg-top group-hover:bg-bottom duration-[1.7s] rounded-t-lg"
                 style={{ backgroundImage: `url(${project?.bgImage})` }}
               ></div>
               <div className="p-3 bg-secondary ">

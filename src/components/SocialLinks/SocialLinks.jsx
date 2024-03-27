@@ -1,5 +1,5 @@
-import { FaFacebookF, FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { Link } from 'react-router-dom'
+import { FaFacebookF, FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 const SocialLinks = () => {
 
     return (
@@ -10,13 +10,13 @@ const SocialLinks = () => {
                 </Link>
             </li>
             <li className='p-2 bg-primary text-white rounded-md hover:scale-125 duration-200'>
-                <Link to="https://www.linkedin.com/in/md-shofikul-islam-shofik-0835a5259" target='_blank'>
+                <Link to="https://www.linkedin.com/in/shafikul-islam-web-dev/" target='_blank'>
                     <FaLinkedinIn />
                 </Link>
 
             </li>
             <li className='p-2 bg-primary text-white rounded-md hover:scale-125 duration-200'>
-                <Link to="https://github.com/" target='_blank'>
+                <Link to="https://github.com/MdShafikulIslam1" target='_blank'>
                     <FaGithub />
                 </Link>
             </li>
