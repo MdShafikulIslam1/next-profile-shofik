@@ -16,8 +16,8 @@ const About = () => {
             <Underline lineLength={"200"} /> */}
 
       <div className="md:flex  w-full  gap-10">
-        <div className="md:w-1/2" data-aos="fade-right">
-          <img className="w-full" src={photo} alt="" />
+        <div className="md:w-1/4" data-aos="fade-right">
+          <img className="w-full md:w-1/2" src={photo} alt="" />
         </div>
         <div className="w-full mt-5 md:mt-0" data-aos="fade-top">
           <h1 className="text-5xl font-bold mb-3">About Me</h1>

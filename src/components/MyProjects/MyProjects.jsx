@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
-import bookCatalog from "../../assets/images/book-catelog.png";
 import computerService from "../../assets/images/computer-and-it-service.png";
-import usedProducts from "../../assets/images/used-products.png";
+import whatsApp from "../../assets/images/whatsApp.png";
 import Underline from "../Underline";
 
 const projects = [
@@ -28,7 +27,7 @@ const projects = [
     ],
   },
   {
-    bgImage: bookCatalog,
+    bgImage: whatsApp,
     name: "WhatsApp - Chat application",
     description:
       "Engage in live conversations via a user-friendly interface. Send text, images, and emojis for effective      communication. Keep track of recent chats for easy access",
@@ -49,7 +48,7 @@ const projects = [
     ],
   },
   {
-    bgImage: usedProducts,
+    bgImage: whatsApp,
     name: "Vehicle Hub -(Team project)",
     description:
       "Seamlessly compare key metrics such as fuel efficiency, maintenance costs, and performance to optimize fleet management. Gain insights for informed decision-making and resource allocation",
