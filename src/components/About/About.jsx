@@ -1,6 +1,6 @@
 // import Underline from "../Underline";
+import Resume from "../../assets/Shafikul_Full-stack-developer.pdf";
 import photo from "../../assets/shofik.jpg";
-import Resume from "../../assets/Shofikul-Islam.pdf";
 // import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
@@ -16,8 +16,8 @@ const About = () => {
             <Underline lineLength={"200"} /> */}
 
       <div className="md:flex  w-full  gap-10">
-        <div className="md:w-1/4" data-aos="fade-right">
-          <img className="w-full md:w-1/2" src={photo} alt="" />
+        <div className="md:w-1/2" data-aos="fade-right">
+          <img className="w-full rounded-md" src={photo} alt="" />
         </div>
         <div className="w-full mt-5 md:mt-0" data-aos="fade-top">
           <h1 className="text-5xl font-bold mb-3">About Me</h1>

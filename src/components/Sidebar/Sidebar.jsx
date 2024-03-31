@@ -1,10 +1,9 @@
-import { Link } from "react-scroll";
-import photo from "../../assets/shofik.jpg"
-import { BiHomeAlt2 } from "react-icons/bi";
-import { BiSolidUserDetail, BiSolidContact } from "react-icons/bi";
-import { GoProjectSymlink } from "react-icons/go";
+import { BiHomeAlt2, BiSolidContact, BiSolidUserDetail } from "react-icons/bi";
 import { GiSkills } from "react-icons/gi";
-import Resume from "../../assets/Shofikul-Islam.pdf";
+import { GoProjectSymlink } from "react-icons/go";
+import { Link } from "react-scroll";
+import Resume from "../../assets/Shafikul_Full-stack-developer.pdf";
+import photo from "../../assets/shofik.jpg";
 import SocialLinks from './../SocialLinks/SocialLinks';
 
 const Sidebar = ({ open, setOpen }) => {

@@ -1,20 +1,20 @@
-import Underline from "../Underline";
-import htmlLogo from "../../assets/logo/html_logo.png";
-import cssLogo from "../../assets/logo/css_logo.png";
-import javascriptLogo from "../../assets/logo/javascript_logo.png";
-import reactLogo from "../../assets/logo/react_logo.png";
-import bootstrapLogo from "../../assets/logo/bootstrap_logo.png";
-import tailwindLogo from "../../assets/logo/tailwind_logo.png";
-import nodeLogo from "../../assets/logo/node_logo.png";
-import expressLogo from "../../assets/logo/express_logo.png";
-import mongodbLogo from "../../assets/logo/mongodb_logo.png";
-import firebaseLogo from "../../assets/logo/firebase_logo.png";
-import prisma from "../../assets/logo/prisma.png";
-import nextLogo from "../../assets/logo/next_logo.png";
-import typescript from "../../assets/logo/typescript.webp";
-import postgresql from "../../assets/logo/postgresql.jpg";
-import "aos/dist/aos.css";
 import Aos from "aos";
+import "aos/dist/aos.css";
+import bootstrapLogo from "../../assets/logo/bootstrap_logo.png";
+import cssLogo from "../../assets/logo/css_logo.png";
+import expressLogo from "../../assets/logo/express_logo.png";
+import firebaseLogo from "../../assets/logo/firebase_logo.png";
+import htmlLogo from "../../assets/logo/html_logo.png";
+import javascriptLogo from "../../assets/logo/javascript_logo.png";
+import mongodbLogo from "../../assets/logo/mongodb_logo.png";
+import nextLogo from "../../assets/logo/next_logo.png";
+import nodeLogo from "../../assets/logo/node_logo.png";
+import postgresql from "../../assets/logo/postgresql.jpg";
+import prisma from "../../assets/logo/prisma.png";
+import reactLogo from "../../assets/logo/react_logo.png";
+import tailwindLogo from "../../assets/logo/tailwind_logo.png";
+import typescript from "../../assets/logo/typescript.webp";
+import Underline from "../Underline";
 // ..
 Aos.init({
   duration: 1000,
@@ -90,7 +90,7 @@ const MySkills = () => {
           skills?.map((skill, index) => (
             <div
               key={index}
-              className="flex gap-2 items-center border border-primary hover:-translate-y-2 duration-300 hover:bg-primary px-5 py-3"
+              className="flex rounded hover:skew-x-4 gap-2 items-center border border-primary hover:-translate-y-2 duration-300 hover:bg-primary px-5 py-3"
             >
               <img className="w-12" src={skill?.image} alt="" />
               <h3 className="md:text-xl font-bold text-white">

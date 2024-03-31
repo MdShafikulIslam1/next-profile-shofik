@@ -1,9 +1,9 @@
-import { TypeAnimation } from "react-type-animation";
-import photo from "../../assets/shofik.jpg";
-import Resume from "../../assets/Shofikul-Islam.pdf";
-import { Link } from "react-scroll";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
+import { Link } from "react-scroll";
+import { TypeAnimation } from "react-type-animation";
+import Resume from "../../assets/Shafikul_Full-stack-developer.pdf";
+import photo from "../../assets/shofik.jpg";
 // ..
 AOS.init({
   delay: 400,
@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <div
       id="home"
-      className="flex flex-col-reverse md:flex-row  my-10 justify-between md:gap-10 min-h-screen items-center  w-full"
+      className="flex flex-col-reverse md:flex-row my-10 justify-between md:gap-5 min-h-screen items-center  w-full"
     >
       <div className="md:w-1/2 " data-aos="fade-right">
         <h3 className="text-2xl font-bold text-white">Hello I am</h3>
@@ -61,8 +61,8 @@ const Home = () => {
           </Link>
         </button>
       </div>
-      <div className="md:w-1/2 my-5 md:my-auto" data-aos="fade-left">
-        <img className=" rounded-full" src={photo} alt="" />
+      <div className="md:w-1/3 my-5 md:my-auto" data-aos="fade-left">
+        <img className="rounded-full" src={photo} alt="" />
       </div>
     </div>
   );
